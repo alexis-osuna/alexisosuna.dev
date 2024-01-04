@@ -12,6 +12,7 @@ export const summary = (): JSX.Element => {
       <img
         src="https://preview.redd.it/fgyd78gzdd971.gif?width=540&auto=webp&s=7e20fc54294b2fe4d3cea524af1385590765aeb2"
         className="max-w-sm"
+        alt="Alexis Osuna"
       />
       <div>
         <div className="mb-4">
