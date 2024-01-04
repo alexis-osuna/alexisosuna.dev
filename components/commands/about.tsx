@@ -11,15 +11,16 @@ export const about = (): JSX.Element => {
         .
       </p>
       <p>
-        I'm a web developer with experience building full stack applications
-        using react and next.js.
+        {
+          "I'm a web developer with experience building full stack applications using react and next.js."
+        }
       </p>
       <p className="mb-4">
-        If you want to see a full list of my skills type: 'skills'.
+        {" If you want to see a full list of my skills type: 'skills'."}
       </p>
       <p>More about me:</p>
-      <p>'resume' - my latest resume.</p>
-      <p>'summary' - a short summary.</p>
+      <p>{"'resume' - my latest resume."}</p>
+      <p>{"'summary' - a short summary."}</p>
     </div>
   );
 };

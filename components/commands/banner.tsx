@@ -28,10 +28,10 @@ export const banner = (): JSX.Element => {
          `}
       </pre>
       <div>
-        <p>Type 'help' to see the list of available commands.</p>
-        <p>Type 'about' to know more about me.</p>
+        <p>{"Type 'help' to see the list of available commands."}</p>
+        <p>{"Type 'about' to know more about me."}</p>
         <p>
-          Type 'repo' or click{" "}
+          {"Type 'repo' or click "}
           <a
             className="text-blue-400 underline"
             href={config.repo}

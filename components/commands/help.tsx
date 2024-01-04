@@ -16,7 +16,7 @@ export const help = (args: string[]): JSX.Element => {
       <p className="mb-4">{c}</p>
       <p>[tab]: trigger completion.</p>
       <p>[ctrl+l]/clear: clear terminal.</p>
-      <p>Type 'theme' to toggle between themes.</p>
+      <p>{"Type 'theme' to toggle between themes."}</p>
     </div>
   );
 };
